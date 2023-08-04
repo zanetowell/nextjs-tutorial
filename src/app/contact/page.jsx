@@ -3,6 +3,11 @@ import Image from 'next/image'
 import React from 'react'
 import styles from './page.module.css'
 
+export const metadata = {
+  title: 'Zane Corp Contact Information',
+  description: 'Next.js Tutorial Contact Page',
+}
+
 const Contact = () => {
   return (
     <div className={styles.container}>
